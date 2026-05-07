@@ -445,7 +445,7 @@ a:active {
 }
 
 body {
-    overflow-x: hidden;
+    
     min-height: 85vh;
     background-color: #000000;
 }
