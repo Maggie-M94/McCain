@@ -177,7 +177,7 @@ select.form-control:focus {
     background-color: #F80F30;
     border: none;
     box-shadow: none;
-    border: 2px solid #ffffff !important;
+    border: 0px solid #ffffff !important;
 }
 
 input::-webkit-calendar-picker-indicator {
@@ -257,7 +257,7 @@ label {
     font-family: "DINNextLTPro-MediumCond";
     font-weight: inherit;
     font-style: normal;
-    color: #818181;
+    color: #BDBDBD;
     opacity: 1;
     font-size: 0.9em;
     text-transform: lowercase;
@@ -267,7 +267,7 @@ label {
     font-family: "DINNextLTPro-MediumCond";
     font-weight: inherit;
     font-style: normal;
-    color: #818181;
+    color: #BDBDBD;
 }
 
 input[type="text"].form-control::-webkit-input-placeholder,
@@ -275,11 +275,11 @@ input[type="tel"].input-date::-webkit-input-placeholder {
     font-family: "DINNextLTPro-MediumCond";
     font-weight: inherit;
     font-style: normal;
-    color: #818181;
+    color: #BDBDBD;
 }
 
 .aria-labelledby {
-    color: #818181;
+    color: #BDBDBD;
 }
 
 /* Footer section */
@@ -292,6 +292,16 @@ input[type="tel"].input-date::-webkit-input-placeholder {
 .ara-desktop {
     padding: 0;
     bottom: 0;
+}
+
+/* XS Mobile rules */
+@media (max-width:375px){
+    .footer-area {
+        position: relative;
+        bottom: 0;
+        padding-top: 50px !important;
+        position: absolute;
+    }
 }
 
 /* Mobile rules */
