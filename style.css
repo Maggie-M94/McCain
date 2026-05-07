@@ -333,7 +333,6 @@ input[type="tel"].input-date::-webkit-input-placeholder {
     .footer-area {
         position: relative;
         bottom: 0;
-        position: absolute;
     }
 
     .footer-area {
