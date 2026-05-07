@@ -318,7 +318,6 @@ input[type="tel"].input-date::-webkit-input-placeholder {
 
     .background-theme {
         min-height: 80vh;
-        overflow: hidden;
         background-image: url('assets/mobile-background-img.png');
         background-repeat: no-repeat;
         background-position: center;
