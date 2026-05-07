@@ -411,7 +411,6 @@ a:active {
 }
 
 .backdrop-row {
-    padding-top: 20px;
     padding-bottom: 20px;
     display: flex;
     align-content: space-around;
@@ -453,6 +452,7 @@ body {
 
 .logo {
     padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 hr {
