@@ -299,7 +299,7 @@ input[type="tel"].input-date::-webkit-input-placeholder {
     .footer-area {
         bottom: 0;
         padding-top: 50px !important;
-        position: absolute;
+        position: relative;
     }
 }
 
@@ -330,7 +330,7 @@ input[type="tel"].input-date::-webkit-input-placeholder {
     }
 
     .footer-area {
-        position: absolute;
+        position: relative;
         bottom: 0;
     }
 
