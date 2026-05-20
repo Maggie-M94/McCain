@@ -345,13 +345,13 @@ section.footer {
         padding-top: 90px;
     }
 
-    /* .soccer-ball {
+    .soccer-ball {
         bottom: -70px;
-        right: 6px;
+        right: -10px;
         width: 100px;
     }
 
-    .footer-area {
+    /* .footer-area {
         margin-top: 60px;
     } */
 }
