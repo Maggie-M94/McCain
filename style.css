@@ -392,6 +392,7 @@ section.footer {
         background-size: contain;
         z-index: -1;
     } */
+
     /* RIGHT graphic */
     .page-wrapper::after {
         content: "";
@@ -405,13 +406,13 @@ section.footer {
         z-index: -1;
     }
 
-    .soccer-ball {
+    .soccer-ball{
         position: relative;
-        right: -20;
-        bottom: 0px;
-        width: 130px;
-        z-index: 99;
-        pointer-events: none;
+    right: -20;
+    bottom: 0px;
+    width: 130px;
+    z-index: 99;
+    pointer-events: none;
     }
 
     #board-background {
@@ -431,10 +432,12 @@ section.footer {
         padding-bottom: 0;
     }
 
-    .body-content {
+    .body-content{
         overflow: visible !important;
     }
 }
+
+
 
 /* Mobile rules */
 @media (min-width:400px) and (max-width:767px) {
@@ -490,13 +493,13 @@ section.footer {
     }
 
     .soccer-ball {
-        position: absolute;
-        right: 0;
-        bottom: 35px;
-        width: 120px;
-        z-index: 99;
-        pointer-events: none;
-    }
+    position: absolute;
+    right: 0;
+    bottom: 35px;
+    width: 120px;
+    z-index: 99;
+    pointer-events: none;
+}
 
     .home-button {
         top: 8px;
@@ -580,7 +583,7 @@ section.footer {
 }
 
 /* Desktop rules */
-@media (min-width:768px) {
+@media (min-width:768px) {    
     /* RIGHT graphic */
     .page-wrapper::after {
         content: "";
@@ -596,7 +599,6 @@ section.footer {
 
     .footer-area {
         position: absolute;
-        bottom: 0;
         left: 0;
         width: 100%;
         text-align: center !important;
@@ -615,12 +617,12 @@ section.footer {
     }
 
     .soccer-ball {
-        position: absolute;
-        right: 0;
-        bottom: 35px;
-        width: 120px;
-        z-index: 99;
-        pointer-events: none;
+    position: absolute;
+    right: 0;
+    bottom: 35px;
+    width: 120px;
+    z-index: 99;
+    pointer-events: none;
     }
 
     #background {
@@ -640,6 +642,7 @@ section.footer {
    LAPTOP / NORMAL DESKTOP FIX
    768px - 1919px
 ===================================== */
+
 @media only screen and (min-width: 768px) and (max-width: 1919px) {
     #board-background {
         min-height: 100vh;
@@ -793,6 +796,7 @@ section.footer {
    LARGE DESKTOP FIX
    1920px - 3839px
 ===================================== */
+
 @media only screen and (min-width: 1920px) and (max-width: 3839px) {
     .board-logo {
         margin-top: 45px;
@@ -992,6 +996,7 @@ hr {
 /* ================================
    LEADERBOARD BASE / DESKTOP
 ================================ */
+
 #board-background {
     min-height: 100vh;
     position: relative;
@@ -1361,6 +1366,7 @@ hr {
    0px - 767px
    Stacked vertically with no overlap
 ===================================== */
+
 @media only screen and (max-width: 767px) {
     html,
     body {
@@ -1386,9 +1392,8 @@ hr {
         margin-bottom: 30px;
     }
 
-    .board-logo {
+      .board-logo {
         width: 78px;
-
         /* max-width: 78px; */
         margin: 0 auto;
         display: block;
