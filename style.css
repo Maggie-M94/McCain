@@ -349,11 +349,12 @@ section.footer {
         bottom: -70px;
         right: -10px;
         width: 100px;
+        z-index: -1;
     }
 
-    .footer-area {
+    /* .footer-area {
         margin-top: 60px;
-    } 
+    } */
 }
 
 /* XS mobile rules */
@@ -438,7 +439,7 @@ section.footer {
     right: -20;
     bottom: 0px;
     width: 130px;
-    z-index: 99;
+    z-index: -1;
     pointer-events: none;
     }
 
@@ -524,7 +525,7 @@ section.footer {
     right: 0;
     bottom: 35px;
     width: 120px;
-    z-index: 99;
+    z-index: -1;
     pointer-events: none;
 }
 
@@ -669,7 +670,7 @@ section.footer {
     right: 0;
     bottom: 35px;
     width: 120px;
-    z-index: 99;
+    z-index: -1;
     pointer-events: none;
     }
 
