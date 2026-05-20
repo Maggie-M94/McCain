@@ -339,6 +339,23 @@ section.footer {
     margin-top: auto;
 }
 
+/* iPhone 11-ish screens */
+@media only screen and (min-width: 390px) and (max-width: 430px) and (min-height: 800px) {
+    .footer {
+        padding-top: 90px;
+    }
+
+    /* .soccer-ball {
+        bottom: -70px;
+        right: 6px;
+        width: 100px;
+    }
+
+    .footer-area {
+        margin-top: 60px;
+    } */
+}
+
 /* XS mobile rules */
 @media (min-width:0px) and (max-width:400px){
     #background {
