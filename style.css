@@ -372,6 +372,16 @@ section.footer {
         font-weight: 400;
     }
 
+    .form-footer-area {
+        position: absolute;
+        /* bottom: 0; */
+        left: 0;
+        width: 100%;
+        text-align: center !important;
+        background-color: #FFC50D !important;
+        z-index: 9999;
+    }
+
     .footer-area {
         position: absolute;
         left: 0;
@@ -512,6 +522,16 @@ section.footer {
         max-width: 78px;
     }
 
+    .form-footer-area {
+        position: absolute;
+        /* bottom: 0; */
+        left: 0;
+        width: 100%;
+        text-align: center !important;
+        background-color: #FFC50D !important;
+        z-index: 9999;
+    }
+
     .footer-area {
         position: absolute;
         bottom: 0;
@@ -599,6 +619,7 @@ section.footer {
 
     .form-footer-area {
         position: absolute;
+        /* bottom: 0; */
         left: 0;
         width: 100%;
         text-align: center !important;
