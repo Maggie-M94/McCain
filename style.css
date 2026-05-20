@@ -1550,20 +1550,20 @@ hr {
     }
 
     .leaderboard-card h2 {
-        font-size: 0.9rem;
+        font-size: 1.2rem;
         line-height: 1.05;
         margin: 0 0 6px;
         padding: 0;
     }
 
     .leaderboard-card p {
-        font-size: 0.75rem;
+        font-size: 0.95rem;
         line-height: 1.1;
         margin: 0;
         padding: 0;
     }
 
     .leaderboard-card strong {
-        font-size: 0.82rem;
+        font-size: 0.95rem;
     }
 }
